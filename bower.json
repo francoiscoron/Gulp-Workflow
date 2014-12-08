@@ -1,0 +1,7 @@
+{
+  "name": "styleGuideVerycook",
+  "private": true,
+  "dependencies": {
+    "fontawesome": "~4.2.0"
+  }
+}
