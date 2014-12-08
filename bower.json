@@ -1,5 +1,5 @@
 {
-  "name": "styleGuideVerycook",
+  "name": "gulpWorkflow",
   "private": true,
   "dependencies": {
     "fontawesome": "~4.2.0"
