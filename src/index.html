@@ -1,31 +1,10 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-        <title>Gulp</title>
-
-        <!-- build:css styles/app.min.css -->
-        <link rel="stylesheet" href="styles/app.css">
-        <!-- bower:css -->
-        <link rel="stylesheet" href="../bower_components/fontawesome/css/font-awesome.css" />
-        <!-- endbower -->
-        <!-- endbuild -->
-
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+@@include('partials/head.html')
+@@include('partials/header.html')
 
         <div class="gulp__box">
-            <h1> hello gulp!</h1>
+            <h1>hello gulp!</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum atque, odio numquam ex ipsum obcaecati voluptas !</p>
             <p class="gulp__box__icons"><i class="fa fa-facebook"></i> <i class="fa fa-github"></i> <i class="fa fa-twitter"></i></p>
         </div>
 
-        <!-- build:js scripts/app.min.js -->
-        <script src="scripts/app.js"></script>
-        <!-- endbuild -->
-    </body>
-</html>
+@@include('partials/footer.html')
